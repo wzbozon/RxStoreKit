@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A03371C61EAA696500B0EA23"
-               BuildableName = "RxStoreKit.framework"
-               BlueprintName = "RxStoreKit"
+               BlueprintIdentifier = "92A45FBD23278EF000FA32C6"
+               BuildableName = "RxStoreKit iOS.framework"
+               BlueprintName = "RxStoreKit iOS"
                ReferencedContainer = "container:RxStoreKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -39,15 +39,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A03371C61EAA696500B0EA23"
-            BuildableName = "RxStoreKit.framework"
-            BlueprintName = "RxStoreKit"
-            ReferencedContainer = "container:RxStoreKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +55,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A03371C61EAA696500B0EA23"
-            BuildableName = "RxStoreKit.framework"
-            BlueprintName = "RxStoreKit"
+            BlueprintIdentifier = "92A45FBD23278EF000FA32C6"
+            BuildableName = "RxStoreKit iOS.framework"
+            BlueprintName = "RxStoreKit iOS"
             ReferencedContainer = "container:RxStoreKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +73,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A03371C61EAA696500B0EA23"
-            BuildableName = "RxStoreKit.framework"
-            BlueprintName = "RxStoreKit"
+            BlueprintIdentifier = "92A45FBD23278EF000FA32C6"
+            BuildableName = "RxStoreKit iOS.framework"
+            BlueprintName = "RxStoreKit iOS"
             ReferencedContainer = "container:RxStoreKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

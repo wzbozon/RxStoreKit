@@ -13,6 +13,15 @@
 		49FFB21F21995AF8003F21C1 /* ReceiptItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFB21C21995AF8003F21C1 /* ReceiptItem.swift */; };
 		49FFB22121995E26003F21C1 /* ReceiptError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFB22021995E26003F21C1 /* ReceiptError.swift */; };
 		8E2B523FD91CD308E568045E /* Pods_RxStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C127711C0821C3A78BAAEAC4 /* Pods_RxStoreKit.framework */; };
+		92A45FC023278EF000FA32C6 /* RecieptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFB21A21995AF8003F21C1 /* RecieptValidator.swift */; };
+		92A45FC123278EF000FA32C6 /* SKRequest+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE8661219854F100869051 /* SKRequest+RxSwift.swift */; };
+		92A45FC223278EF000FA32C6 /* SKPaymentQueue+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03371E51EAA6E9D00B0EA23 /* SKPaymentQueue+Rx.swift */; };
+		92A45FC323278EF000FA32C6 /* ReceiptError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFB22021995E26003F21C1 /* ReceiptError.swift */; };
+		92A45FC423278EF000FA32C6 /* ReceiptAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFB21B21995AF8003F21C1 /* ReceiptAPI.swift */; };
+		92A45FC523278EF000FA32C6 /* SKProductExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03371E11EAA69AB00B0EA23 /* SKProductExtensions.swift */; };
+		92A45FC623278EF000FA32C6 /* SKProduct+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03371E31EAA6C7300B0EA23 /* SKProduct+Rx.swift */; };
+		92A45FC723278EF000FA32C6 /* ReceiptItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFB21C21995AF8003F21C1 /* ReceiptItem.swift */; };
+		92A45FCB23278EF000FA32C6 /* RxStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A03371CA1EAA696500B0EA23 /* RxStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A03371D11EAA696500B0EA23 /* RxStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03371C71EAA696500B0EA23 /* RxStoreKit.framework */; };
 		A03371D61EAA696500B0EA23 /* RxStoreKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03371D51EAA696500B0EA23 /* RxStoreKitTests.swift */; };
 		A03371D81EAA696500B0EA23 /* RxStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A03371CA1EAA696500B0EA23 /* RxStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +47,8 @@
 		49FFB21C21995AF8003F21C1 /* ReceiptItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptItem.swift; sourceTree = "<group>"; };
 		49FFB22021995E26003F21C1 /* ReceiptError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptError.swift; sourceTree = "<group>"; };
 		4FA26099712D3560933A9511 /* Pods-RxStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStoreKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxStoreKit/Pods-RxStoreKit.release.xcconfig"; sourceTree = "<group>"; };
+		92A45FD023278EF000FA32C6 /* RxStoreKit iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxStoreKit iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A45FD123278EF000FA32C6 /* RxStoreKit copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RxStoreKit copy-Info.plist"; path = "/Users/denis/Documents/RxStoreKit/RxStoreKit copy-Info.plist"; sourceTree = "<absolute>"; };
 		A03371C71EAA696500B0EA23 /* RxStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03371CA1EAA696500B0EA23 /* RxStoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxStoreKit.h; sourceTree = "<group>"; };
 		A03371CB1EAA696500B0EA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		92A45FC823278EF000FA32C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A03371C31EAA696500B0EA23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,6 +120,7 @@
 				A03371C81EAA696500B0EA23 /* Products */,
 				A79F62103B183B12AC431586 /* Pods */,
 				4723BB2BC1535B1DC6BC4157 /* Frameworks */,
+				92A45FD123278EF000FA32C6 /* RxStoreKit copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +129,7 @@
 			children = (
 				A03371C71EAA696500B0EA23 /* RxStoreKit.framework */,
 				A03371D01EAA696500B0EA23 /* RxStoreKitTests.xctest */,
+				92A45FD023278EF000FA32C6 /* RxStoreKit iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +165,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		92A45FCA23278EF000FA32C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A45FCB23278EF000FA32C6 /* RxStoreKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A03371C41EAA696500B0EA23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,6 +184,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		92A45FBD23278EF000FA32C6 /* RxStoreKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A45FCD23278EF000FA32C6 /* Build configuration list for PBXNativeTarget "RxStoreKit iOS" */;
+			buildPhases = (
+				92A45FBF23278EF000FA32C6 /* Sources */,
+				92A45FC823278EF000FA32C6 /* Frameworks */,
+				92A45FCA23278EF000FA32C6 /* Headers */,
+				92A45FCC23278EF000FA32C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RxStoreKit iOS";
+			productName = RxStoreKit;
+			productReference = 92A45FD023278EF000FA32C6 /* RxStoreKit iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A03371C61EAA696500B0EA23 /* RxStoreKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A03371DB1EAA696500B0EA23 /* Build configuration list for PBXNativeTarget "RxStoreKit" */;
@@ -222,6 +268,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = A03371BD1EAA696500B0EA23;
@@ -229,6 +276,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				92A45FBD23278EF000FA32C6 /* RxStoreKit iOS */,
 				A03371C61EAA696500B0EA23 /* RxStoreKit */,
 				A03371CF1EAA696500B0EA23 /* RxStoreKitTests */,
 			);
@@ -236,6 +284,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		92A45FCC23278EF000FA32C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A03371C51EAA696500B0EA23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +329,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		92A45FBF23278EF000FA32C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A45FC023278EF000FA32C6 /* RecieptValidator.swift in Sources */,
+				92A45FC123278EF000FA32C6 /* SKRequest+RxSwift.swift in Sources */,
+				92A45FC223278EF000FA32C6 /* SKPaymentQueue+Rx.swift in Sources */,
+				92A45FC323278EF000FA32C6 /* ReceiptError.swift in Sources */,
+				92A45FC423278EF000FA32C6 /* ReceiptAPI.swift in Sources */,
+				92A45FC523278EF000FA32C6 /* SKProductExtensions.swift in Sources */,
+				92A45FC623278EF000FA32C6 /* SKProduct+Rx.swift in Sources */,
+				92A45FC723278EF000FA32C6 /* ReceiptItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A03371C21EAA696500B0EA23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +378,65 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		92A45FCE23278EF000FA32C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D80149B978D07ED4315C9E /* Pods-RxStoreKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "RxStoreKit copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) ";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.marcb.RxStoreKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		92A45FCF23278EF000FA32C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA26099712D3560933A9511 /* Pods-RxStoreKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "RxStoreKit copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) ";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.marcb.RxStoreKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		A03371D91EAA696500B0EA23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -503,6 +632,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		92A45FCD23278EF000FA32C6 /* Build configuration list for PBXNativeTarget "RxStoreKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A45FCE23278EF000FA32C6 /* Debug */,
+				92A45FCF23278EF000FA32C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A03371C11EAA696500B0EA23 /* Build configuration list for PBXProject "RxStoreKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
